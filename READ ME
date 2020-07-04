@@ -1,0 +1,6 @@
+This is my working version of the 8 puzzle being solved by a DQN agent. 
+This current version requires around 3-4 hours before agent can solve the puzzle in roughly 30 moves. 
+Current network architecture uses 2 hidden layers with 256 nodes - still need to play with network configuration to see if bounds can be reduced.
+
+Code is currently messy - can separate game into class file, move DQN class separately and create a script to create and run agent.
+Also need to save the network weights, as opposed to agent learning every time.
